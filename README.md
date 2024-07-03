@@ -9,6 +9,20 @@ The advantages of the BAW resonator include high selectivity, reduced size, and 
 Java were used to code a script for the FEA in COMSOL Multiphysics 6.1. You can use the .class or .mph archives to run the same analysis on your computer or can you use the raw script. 
 To use the raw script you must compiled before, in order to do that you should follow the next steps: 
 
+# Structure of The Resonator
+![alt text](https://github.com/ezequiel1611/thin_film_baw_resonator/blob/main/images/structure.png)
+
+The bottom layer of the resonator is silicon, on top of which there is an aluminum layer that functions as the ground terminal. 
+The next layer is the piezoelectric layer, in this case made of zinc oxide (ZnO), and above it, there is another aluminum terminal that will be the positive terminal. 
+A part of the silicon has been removed from the center of the resonator so that the thickness of the resonator's active structure is very small. 
+The central part of the silicon has a thickness of 7 µm, while the piezoelectric layer has a thickness of 9.5 µm, both are a square with a side length of 1.7 mm. Both aluminum layers have a thickness of 200 nm, and the upper electrode has a square surface with a side length of 500 µm. 
+
+# Results
+## Admittance vs Frequency
+![alt text](https://github.com/ezequiel1611/thin_film_baw_resonator/blob/main/images/admittance.png)
+## Quality Factor
+![alt text](https://github.com/ezequiel1611/thin_film_baw_resonator/blob/main/images/quality_factor.png)
+
 ## Compile Java script on Linux
 1. **Open a Command Terminal:** Go to the folder where you want to store the script and there will be a command terminal there.
 2. **Clone the Repository:** In the Command Terminal, type:
