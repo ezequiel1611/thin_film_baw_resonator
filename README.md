@@ -23,6 +23,7 @@ The central part of the silicon has a thickness of 7 µm, while the piezoelectri
 ## Quality Factor
 ![alt text](https://github.com/ezequiel1611/thin_film_baw_resonator/blob/main/images/quality_factor.png)
 
+# How to use the Script
 ## Compile Java script on Linux
 1. **Open a Command Terminal:** Go to the folder where you want to store the script and there will be a command terminal there.
 2. **Clone the Repository:** In the Command Terminal, type:
