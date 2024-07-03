@@ -54,7 +54,8 @@ The central part of the silicon has a thickness of 7 µm, while the piezoelectri
   ```
   git clone https://github.com/ezequiel1611/thin_film_baw_resonator
   ```
-  and press Enter to create a local copy of this repository on your computer.
+and press Enter to create a local copy of this repository on your computer.
+
 3. **Go into the New Folder:** Change directory to the newly cloned repository by typing:
   ```
   cd thin_film_baw_resonator
@@ -67,4 +68,4 @@ If COMSOL is installed in the default location, the command might look like this
   ```
   C:\Program Files\COMSOL\COMSOL56\Multiphysics\bin\win64\comsol compile resonador_baw_chatgpt.java
   ```
-5.**Run the Model:** After the compilation ends, you should see a new file with a `.class` extension. Open COMSOL Multiphysics, go to `File->Open` and select the `.class` file to run the model.
+5. **Run the Model:** After the compilation ends, you should see a new file with a `.class` extension. Open COMSOL Multiphysics, go to `File->Open` and select the `.class` file to run the model.
